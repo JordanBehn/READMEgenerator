@@ -4,7 +4,7 @@
       
     This project takes user inputs for various fields, and uses them to generate a README.md file that gives information about a project
 
-    ##Table of Contents
+    ## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
@@ -27,6 +27,6 @@
     License 2
 
     ## Questions? 
-    GitHub:[@github.com/JordanBehn])
+    GitHub:github.com/JordanBehn
     Email: jordanqbehn@gmail.com
     
