@@ -1,9 +1,16 @@
 // function to generate markdown for README
 function generateMarkdown(data) {
     let markdown = `# ${data.title}
+
     ## Description 
       
     ${data.description}
+
+    ##Table of Contents
+* [Installation](#installation)
+* [Usage](#usage)
+* [Contributing](#contributing)
+* [Tests](#tests)
 
     ## Installation
   
