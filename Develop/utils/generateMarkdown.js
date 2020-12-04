@@ -2,34 +2,33 @@
 function generateMarkdown(data) {
     let markdown = `# ${data.title}
 
-    ## Description 
+## Description 
       
     ${data.description}
 
-    ##Table of Contents
+## Table of Contents
 * [Installation](#installation)
 * [Usage](#usage)
 * [Contributing](#contributing)
 * [Tests](#tests)
 
-    ## Installation
-  
+## Installation
     ${data.installation}
     
-    ## Usage
+## Usage
     ${data.usage}
 
-    ## Contributing
+## Contributing
     ${data.contributing}
 
-    ## Testing
+## Testing
     ${data.tests}
     
-    ## License
+## License
     ${data.license}
 
-    ## Questions? 
-    GitHub:[@github.com/${data.username}])
+## Questions? 
+    GitHub: @github.com/${data.username}
     Email: ${data.email}
     `
     return markdown;
