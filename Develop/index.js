@@ -50,12 +50,16 @@ const questions = [{
 ];
 
 // function to write README file
-function writeToFile(mrkdwn) {}
+function writeToFile(mrkdwn) {
+    fs.writeFile('./generatedREADME.md', mrkdwn, (err) =>
+        err ? console.error(err) : console.log('README successfully generated'));
+}
 
 // function to initialize program
 function init() {
     inquirer.prompt(questions).then((response) => {
         const md = generateMarkdown(response);
+        writeToFile(md);
     });
 }
 
